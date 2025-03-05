@@ -1,3 +1,10 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -12,4 +19,18 @@ body {
     border: 3px solid rgb(47, 65, 105);
     border-radius: 10px;
     background-color: rgb(23, 23, 26);
+}
+
+#points {
+    margin-right: 50px;
+}
+
+#game-over {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
 }
